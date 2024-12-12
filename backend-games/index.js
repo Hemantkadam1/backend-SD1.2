@@ -42,6 +42,13 @@ const games = [
     platform: 'Multi-platform',
     releaseYear: 2011,
   },
+  {
+    id: 6,
+    title: 'Dota2',
+    genre: 'Strategy',
+    platform: 'Pc',
+    releaseYear: 2005,
+  },
 ];
 
 app.get("/games",(req,res)=>{
